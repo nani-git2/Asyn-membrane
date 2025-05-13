@@ -1,1 +1,1 @@
-# Asyn-membrane
+Model to study surface condensation of 𝛼-synuclein on a lipid bilayer. The membrane is composed of two kinds of lipids (DOPC and DOPS) and is represented via a 2D Ising model (lipid-lipid interaction Jm). 𝛼-synuclein proteins are represented using a 3D lattice-gas model (protein-protein interaction Jp). The proteins interact with the membrane via tethers (protein-tether interaction Jt)
