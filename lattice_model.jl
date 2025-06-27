@@ -71,7 +71,7 @@ function teth_initialize(memb::Matrix{Int8})::Vector{Vector{Int8}}
 end
 
 """
-Returns list of neighbours of a point (for bulk)
+Returns list of neighbours of a site (for bulk)
 """
 function neighbours(ind::Vector{Int64}, l::Int64)
 	neigh = Vector{Vector{Int64}}(undef, 6)
