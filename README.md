@@ -11,4 +11,4 @@ in the REPL, or include a line to save the output data in a preferred format and
 
 The output gives the state of the system: particle and tether positions, and the membrane states. The excess density is computed from this as mentioned in the manuscript.
 
-
+On a standard desktop as mentioned above, a typical run for the lattice sizes and parameters mentioned in the manuscript takes around 2-3hours.
