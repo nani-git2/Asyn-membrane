@@ -21,7 +21,7 @@ using Distributions, JLD, StatsBase, Random, Base.Threads, Plots
 
 
 # Model parameters
-const L = 20		# box size (cubic for now)
+const L = 20		# box size
 const Jb = 0.5     	# bulk coupling (kT, Jbc~0.88625)
 const Jm = 2.0          # membrane spins coupling constant (Kt, Jmc~0.441)
 const Jt = 5.0          # coupling b/w tether and particle 
@@ -32,7 +32,7 @@ const phi_mem =  0.5    # membrane lipid composition
 
 # Implementation parameters
 const Nsweeps = 5*10^4
-const Nsteps = (L^3 + L^2 + L)      # number of MC steps per sweep
+const Nsteps = (L^3 + L^2)      # number of MC steps per sweep
 
 
 """
